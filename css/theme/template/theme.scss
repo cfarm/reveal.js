@@ -33,7 +33,7 @@ body {
 .reveal h4, 
 .reveal h5, 
 .reveal h6 {
-	margin: 0 0 20px 0;
+	margin: 10px 0 20px 0;
 	color: $headingColor;
 
 	font-family: $headingFont;
@@ -92,6 +92,11 @@ body {
 	    -ms-transition: all .2s linear;
 	     -o-transition: all .2s linear;
 	        transition: all .2s linear;
+
+	&.badge {
+		border: none;
+		box-shadow: none;
+	}
 }
 
 	.reveal a:hover img {

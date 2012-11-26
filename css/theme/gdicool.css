@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Gotham-Italic";
-  src: local("Gotham-Italic"), url("fonts/Gotham/Gotham-MediumItalic.otf") format("opentype");
+  src: local("Gotham-Italic"), url("fonts/Gotham/Gotham-MediumIta.otf") format("opentype");
   font-weight: normal;
   font-style: italic; }
 
@@ -56,9 +56,9 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 20px 0;
+  margin: 10px 0 20px 0;
   color: #8b0036;
-  font-family: "Gotham-Bold", Impact, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -101,6 +101,9 @@ body {
   -ms-transition: all .2s linear;
   -o-transition: all .2s linear;
   transition: all .2s linear; }
+  .reveal section img.badge {
+    border: none;
+    box-shadow: none; }
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
