@@ -48,6 +48,7 @@ html {
    Consider using a serif font for readability. */
 body, p, td, li, div {
 	font-size: 18pt;
+	background: #fff !important;
 }
 
 /* SECTION 4: Set heading font face, sizes, and color.
@@ -155,5 +156,5 @@ ul, ol, div, p {
 }
 
 pre {
-    font-size: 9pt !important;
+    font-size: 12pt !important;
 }

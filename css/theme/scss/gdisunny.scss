@@ -1,9 +1,9 @@
 // Default mixins and settings -----------------
-@import "../template/mixins";
-@import "../template/settings";
+@import "_mixins";
+@import "_settings";
 // ---------------------------------------------
 
-
+//butt
 // Override theme settings (see ../template/settings.scss)
 $mainColor: #333;
 $headingLetterSpacing: -0.08em;
@@ -35,5 +35,5 @@ h4, h6 {
 }
 
 // Theme template ------------------------------
-@import "../template/theme";
+@import "_theme";
 // ---------------------------------------------
