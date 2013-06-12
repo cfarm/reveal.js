@@ -53,6 +53,31 @@ table.code-compare {
 	background: grayscale(#f00);
 	color: grayscale(darken(#f00, 50%));
 }
+blockquote.quote {
+	margin-top: 1em; 
+	font-family: $headingFont;
+	font-style: normal;
+	text-align: left;
+	box-shadow: none;
+}
+cite {
+	float: right;
+	font-family: $headingFont;
+	font-size: 0.75em;
+	color: grey;
+}
+.reveal .giant {
+	margin-top: 1em;
+	font-family: $headingFont;
+	font-size: 2em;
+	line-height: 1.75em;
+	strong {
+		font-size: 2.1em;
+	}
+}
+.reveal code {
+	max-height: 500px;
+}
 /*********************************************
  * HEADERS
  *********************************************/
@@ -63,7 +88,7 @@ table.code-compare {
 .reveal h4, 
 .reveal h5, 
 .reveal h6 {
-	margin: 10px 0 20px 0;
+	margin: 0.25em 0;
 	color: $headingColor;
 
 	font-family: $headingFont;
@@ -80,7 +105,7 @@ table.code-compare {
 
 .reveal h3 {
 	font-size: 1.25em;
-	margin-bottom: 5px;
+	//margin-bottom: 5px;
 }
 
 /*********************************************
