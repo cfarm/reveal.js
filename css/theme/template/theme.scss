@@ -45,11 +45,7 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-<<<<<<< HEAD
 	margin: 10px 0 20px 0;
-=======
-	margin: $headingMargin;
->>>>>>> c2997c605d969ae46180f0a714802511bb89dbc7
 	color: $headingColor;
 
 	font-family: $headingFont;
@@ -281,7 +277,6 @@ body {
 	border: 4px solid $mainColor;
 
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-<<<<<<< HEAD
 	
 	-webkit-transition: all .2s linear;
 	   -moz-transition: all .2s linear;
@@ -293,8 +288,6 @@ body {
 		border: none;
 		box-shadow: none;
 	}
-=======
->>>>>>> c2997c605d969ae46180f0a714802511bb89dbc7
 }
 
 	.reveal section img.plain {

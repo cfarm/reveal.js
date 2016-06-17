@@ -35,30 +35,24 @@
 $backgroundColor: #2b2b2b;
 
 // Primary/body text
-<<<<<<< HEAD
 $mainFont: 'Gotham-Book', 'Helvetica', Arial, sans-serif;
-=======
 $mainFont: 'Lato', sans-serif;
->>>>>>> c2997c605d969ae46180f0a714802511bb89dbc7
-$mainFontSize: 36px;
+//$mainFontSize: 36px;
 $mainColor: #eee;
 
 // Vertical spacing between blocks of text
 $blockMargin: 20px;
 
 // Headings
-<<<<<<< HEAD
 $headingFont: 'Montserrat', sans-serif;
 $headingColor: #F05B62; 
 $headingLineHeight: 0.9em;
 $headingLetterSpacing: 0.02em;
-=======
-$headingMargin: 0 0 $blockMargin 0;
+/*$headingMargin: 0 0 $blockMargin 0;
 $headingFont: 'League Gothic', Impact, sans-serif;
 $headingColor: #eee;
 $headingLineHeight: 1.2;
-$headingLetterSpacing: normal;
->>>>>>> c2997c605d969ae46180f0a714802511bb89dbc7
+$headingLetterSpacing: normal;*/
 $headingTextTransform: uppercase;
 $headingTextShadow: none;
 $headingFontWeight: normal;
